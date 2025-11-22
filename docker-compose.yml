@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  telegram-media-bot:
+    build: .
+    container_name: telegram-media-bot
+    environment:
+      - BOT_TOKEN=${BOT_TOKEN}
+      - DOWNLOAD_PATH=/downloads
+      - MAX_FILE_SIZE_MB=${MAX_FILE_SIZE_MB:-2048}
+      - ALLOWED_USERS=${ALLOWED_USERS:-}
+    volumes:
+      - ./downloads:/downloads
+      - ./logs:/app/logs
+    restart: unless-stopped
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
