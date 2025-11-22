@@ -1,1 +1,18 @@
+# Telegram Bot Framework
+python-telegram-bot==21.0.1
 
+# Media Download Library
+yt-dlp>=2024.11.12
+
+# Required for yt-dlp functionality
+certifi
+brotli
+websockets
+requests
+
+# Optional but recommended for better performance
+curl-cffi
+
+# For audio conversion
+# Note: FFmpeg must be installed separately on your system
+# Download from: https://ffmpeg.org/download.html
