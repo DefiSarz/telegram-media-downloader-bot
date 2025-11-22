@@ -1,5 +1,12 @@
 # 🎬 Telegram Media Downloader Bot
 
+[![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Telegram Bot](https://img.shields.io/badge/Telegram-Bot-blue.svg?logo=telegram)](https://core.telegram.org/bots)
+[![yt-dlp](https://img.shields.io/badge/powered%20by-yt--dlp-red.svg)](https://github.com/yt-dlp/yt-dlp)
+
+# 🎬 Telegram Media Downloader Bot
+
 A powerful Telegram bot that downloads videos and audio from **YouTube, Newgrounds, Instagram, TikTok, Twitter/X, Facebook, Reddit,** and **1500+ other platforms** using yt-dlp.
 
 ## 🌟 Features
